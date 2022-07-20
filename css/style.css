@@ -1,0 +1,98 @@
+                                                                            @charset "utf-8";
+                                                                        * {
+                                                                            padding: 0;
+                                                                            margin: 0;
+                                                                            box-sizing: border-box;
+                                                                        }
+                                                                        
+                                                                        html,
+                                                                        body {
+                                                                            font-family: 'Courier New', Courier, monospace;
+                                                                            background-image: url("/home/background-home-desktop.jpg");
+                                                                            color: white;
+                                                                            padding-top: 10px;
+                                                                        }
+                                                                        
+                                                                        h1,
+                                                                        p {
+                                                                            text-align: center;
+                                                                            padding: 10px;
+                                                                        }
+                                                                        
+                                                                        #survey-form {
+                                                                            width: 50%;
+                                                                            margin: 0 auto;
+                                                                            padding: 20px;
+                                                                            background-color: rgba(73, 73, 138, 0.301);
+                                                                            padding-left: 60px;
+                                                                        }
+                                                                        
+                                                                        label,
+                                                                        span {
+                                                                            color: white;
+                                                                        }
+                                                                        
+                                                                        div {
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            margin-top: 10px;
+                                                                        }
+                                                                        
+                                                                        .checkbox {
+                                                                            display: flex;
+                                                                            flex-direction: row;
+                                                                            align-items: center;
+                                                                            justify-content: flex-start;
+                                                                        }
+                                                                        
+                                                                        input {
+                                                                            margin-right: 10px;
+                                                                        }
+                                                                        
+                                                                        .name>input,
+                                                                        select,
+                                                                        #submit {
+                                                                            height: 30px;
+                                                                            border-radius: 2px;
+                                                                            outline: none;
+                                                                            width: 90%;
+                                                                        }
+                                                                        
+                                                                        #name,
+                                                                        #email,
+                                                                        #number {
+                                                                            width: 90%;
+                                                                        }
+                                                                        
+                                                                        #submit {
+                                                                            margin-top: 20px;
+                                                                            width: 100%;
+                                                                            background-color: aqua;
+                                                                            color: white;
+                                                                            border: none;
+                                                                            border-radius: 2px;
+                                                                            font-weight: bolder;
+                                                                            font-size: larger;
+                                                                            width: 90%;
+                                                                        }
+                                                                        
+                                                                        #submit:hover {
+                                                                            cursor: pointer;
+                                                                            background: green;
+                                                                        }
+                                                                        
+                                                                        textarea {
+                                                                            height: 130px;
+                                                                            outline: none;
+                                                                            width: 90%;
+                                                                        }
+                                                                        
+                                                                        input {
+                                                                            border-radius: 2px;
+                                                                            outline: none;
+                                                                            input:focus {
+                                                                                border-color: aqua;
+                                                                            }
+                                                                            select:focus {
+                                                                                border-color: aqua;
+                                                                            }
